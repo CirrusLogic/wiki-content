@@ -3,8 +3,8 @@
 # Clean setup
 amixer $1 -Dhw:sndrpiwsp cset name='HPOUT1 Digital Switch' off
 amixer $1 -Dhw:sndrpiwsp cset name='HPOUT2 Digital Switch' off
-amixer $1 -Dhw:sndrpiwsp cset name='SPDIF out Switch' off
-amixer $1 -Dhw:sndrpiwsp cset name='SPDIF in Switch' off
+amixer $1 -Dhw:sndrpiwsp cset name='SPDIF Out Switch' off
+amixer $1 -Dhw:sndrpiwsp cset name='SPDIF In Switch' off
 amixer $1 -Dhw:sndrpiwsp cset name='Tx Source' AIF
 amixer $1 -Dhw:sndrpiwsp cset name='AIF2TX1 Input 1' None
 amixer $1 -Dhw:sndrpiwsp cset name='AIF2TX2 Input 1' None
